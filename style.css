@@ -1,0 +1,218 @@
+html {
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* container */
+
+header {
+  margin-bottom: 20px;
+  max-height: 100%;
+  min-height: 400px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 330px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.header__text {
+  color: #252525;
+  margin: 0 auto;
+  padding-left: 26px;
+  padding-top: 15px;
+  background-color: #f6f3f3;
+}
+
+.header__photo {
+  width: 330px;
+  height: 330px;
+  overflow: hidden;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+
+    background-image: url(logo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
+
+.text_max {
+  font-size: 6;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.text_min {
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+.share {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  right: 0;
+  margin-right: 18px;
+  margin-top: -20px;
+}
+
+.line {
+  display: block;
+}
+
+.line {
+  width: 100%;
+  border-top: 1px solid #4d4b48;
+  opacity: 0.2;
+}
+
+.vk_block {
+  padding: 25px;
+  position: relative;
+}
+
+.vk_icon {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  margin-top: -5px;
+  background-color: #f2f2f1;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+.vktext {
+padding-left: 58px;
+text-decoration: none;
+color: #252525;
+}
+
+.vklink {
+  position: absolute;
+  right: 0;
+  margin-right: 18px;
+
+ text-decoration: none;
+ background: #c6283a;
+ border-radius: 3px;
+ color: white;
+ padding: 10px;
+ font-size: 13px;
+ font-weight: 400;
+ margin-top: -9px;
+}
+
+.vklink:hover {
+  background: #ad1c2d;
+}
+
+.vk_block:hover {
+  background-color: #eae9e9;
+}
+
+.form_login {
+  max-width: 330px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: white;
+  position: relative;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form1 {
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 7px;
+  border-width: 1px;
+  border-color: #ababaa;
+  width: 75%;
+  border-style: solid;
+
+}
+
+.login {
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.register {
+  padding: 15px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.formreg  {
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  background-color: #b31d2e;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 60px;
+}
+
+.formreg:hover {
+  background-color: #ad1c2d;
+}
+
+.regbtn {
+  padding: 30px;
+}
+
+.brand {
+  text-align: center;
+  color: #252525;
+  max-height: 400px;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+
+#item-to-copy {
+  display: none;
+}
